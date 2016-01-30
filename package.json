@@ -21,13 +21,13 @@
   },
   "homepage": "https://github.com/hackerrdave/react-router-and-lazy-server-render#readme",
   "dependencies": {
-    "babel": "^6.3.26",
-    "babel-core": "^6.4.5",
-    "babel-loader": "^6.2.1",
-    "history": "^2.0.0-rc2",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
-    "react-router": "^2.0.0-rc5",
-    "webpack": "^2.0.6-beta"
+    "babel": "^5.8.34",
+    "babel-core": "^5.8.34",
+    "babel-loader": "^5.4.0",
+    "history": "^1.13.1",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-router": "^1.0.0",
+    "webpack": "^1.12.6"
   }
 }

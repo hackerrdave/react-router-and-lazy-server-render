@@ -1,0 +1,33 @@
+{
+  "name": "react-router-and-lazy-server-render",
+  "version": "1.0.0",
+  "description": "Example application showing the power of React, React Router, Server Side Rendering, &amp; Code Splitting (via Webpack). Inspired by [example-react-router-server-rendering-lazy-routes](https://github.com/rackt/example-react-router-server-rendering-lazy-routes)",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production webpack --progress && babel-node app/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hackerrdave/react-router-and-lazy-server-render.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Dave Kerr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hackerrdave/react-router-and-lazy-server-render/issues"
+  },
+  "homepage": "https://github.com/hackerrdave/react-router-and-lazy-server-render#readme",
+  "dependencies": {
+    "babel": "^6.3.26",
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "history": "^2.0.0-rc2",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.0-rc5",
+    "webpack": "^2.0.6-beta"
+  }
+}
